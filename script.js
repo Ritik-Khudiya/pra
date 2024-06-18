@@ -5,7 +5,7 @@ let str="";
 let allbtn=Array.from(document.getElementsByClassName('button'));
 if(str.length===0)
     {
-        input.value='0';
+        input.value='1';
     }
 allbtn.map((i)=>{
     i.addEventListener('click',(e)=>{
